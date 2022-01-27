@@ -1,0 +1,402 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Global class */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+section {
+  padding: 75px 0px;
+}
+.container {
+  width: 90%;
+  margin: auto;
+}
+.global-h-l {
+  color: #faf7ec;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+.global-h-m {
+  font-size: 23px;
+  font-weight: 600;
+}
+.global-p {
+  font-size: 15px;
+}
+.underline {
+  display: block;
+  border: 2px solid #2b262640;
+  width: 65px;
+  margin: 20px auto;
+}
+.btn {
+  width: 200px;
+  padding: 15px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+  background: turquoise;
+}
+/* Header part-01 */
+header {
+  background: #87509c;
+  width: 100%;
+  float: left;
+  color: #faf7ec;
+}
+/* Main Header part */
+.main-header {
+  width: 100%;
+  float: left;
+  padding: 20px 0px;
+}
+.logo-part {
+  width: 50%;
+  float: left;
+}
+.menu-part {
+  width: 50%;
+  float: left;
+  text-align: end;
+}
+.menu-part ul {
+  margin-top: 11px;
+}
+.menu-part ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 20px;
+}
+.menu-part ul li a {
+  text-decoration: none;
+  color: #faf7ec;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* Header Content */
+.header-content {
+  text-align: center;
+  width: 100%;
+  float: left;
+  margin: 100px 0px;
+}
+.header-content h1 {
+  text-transform: none;
+  font-family: "Montserrat", sans-serif;
+}
+.header-content button {
+  background: #eb7d4b;
+  margin-top: 50px;
+}
+.header-content button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 4px #3be2e7;
+}
+/* Service Section-02 */
+#service {
+  background: #17c2a4;
+  width: 100%;
+  float: left;
+  text-align: center;
+  color: white;
+  padding: 75px 0px;
+}
+.service-main {
+  width: 52%;
+  margin: 0 auto 50px;
+}
+.service-main h2 {
+  font-size: 36px;
+}
+.service-main p {
+  font-size: 15px;
+}
+.service-box {
+  width: 100%;
+  float: left;
+}
+.service-box-details {
+  width: 23%;
+  float: left;
+  margin: 0 1%;
+}
+.service-box-details img {
+  height: 100px;
+}
+.service-box-details h3 {
+  margin: 20px;
+}
+.service-box-details p {
+}
+/* TEAM SECTION */
+#team {
+  background: #e7f1f8;
+  width: 100%;
+  float: left;
+  padding: 75px 0px;
+  text-align: center;
+}
+.team-main {
+  width: 52%;
+  margin: auto;
+}
+.team-main h2 {
+  font-size: 36px;
+}
+.team-main p {
+}
+.team-box {
+}
+.team-box-details {
+  width: 23%;
+  float: left;
+  margin: 50px 1%;
+}
+.team-box-details img {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+}
+.team-box-details h3 {
+  margin: 15px 0px;
+}
+.team-box-details h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #51bbce;
+  margin-bottom: 10px;
+}
+.team-box-details p {
+  font-size: 15px;
+}
+.social-icons {
+}
+.social-icons i {
+  font-size: 20px;
+  margin: 17px 10px;
+  background: rgb(58, 65, 50);
+  padding: 8px;
+  border-radius: 50%;
+  color: rgb(244, 244, 255);
+}
+
+/* .fab-fa-facebook:hover { */
+/* background: blue; */
+/* color: #d9f0ec; */
+/* } */
+
+.fab-fa-facebook {
+  padding: 10px 15px !important;
+}
+
+/* SKILL SECTION */
+#skill {
+  background: #ffffff;
+  width: 100%;
+  float: left;
+  padding: 25px 0px;
+  text-align: center;
+}
+.skill-main {
+  width: 52%;
+  margin: auto;
+}
+.skill-main h2 {
+  font-size: 36px;
+}
+.skill-main p {
+}
+.skill-box {
+}
+.skill-box-details {
+  width: 23%;
+  float: left;
+  margin: 50px 1% 0px;
+}
+.skill-box-details img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+}
+.skill-box-details h3 {
+  margin: 15px 0px;
+}
+
+/*  PORTFOLIO SECTION*/
+#portfolio {
+  background: #ffdd99;
+  width: 100%;
+  float: left;
+  padding: 75px 0px;
+  text-align: center;
+}
+.portfolio-main {
+  width: 100%;
+  float: left;
+}
+.portfolio-main h2 {
+  font-size: 30px;
+  color: #312c22;
+}
+.portfolio-main h3 {
+  color: #5a5449;
+}
+.portfolio-main p {
+  font-size: 20px;
+  color: #5d564a;
+}
+.portfolio-menu-part {
+  width: 100%;
+  float: left;
+  display: block;
+  padding: 5px;
+  margin: 5px 0px;
+}
+.portfolio-menu-part ul {
+  list-style: none;
+  display: inline-flex;
+  color: #383838;
+}
+.portfolio-menu-part ul li {
+  list-style: none;
+  display: inline-block;
+  text-align: center;
+  width: 80px;
+  padding: 6px 10px;
+  margin: 5px 10px;
+  font-weight: 500;
+}
+.portfolio-menu-part ul li:hover {
+}
+
+.portfolio-menu-part ul li a {
+  text-decoration: none;
+  color: rgb(124, 99, 99);
+}
+.portfolio-menu-part ul li a all:hover {
+  background-color: rgb(202, 235, 159);
+}
+.wow,
+.portfolio-menu-part ul li a:hover {
+  background: #ebc985;
+}
+.portfolio-box {
+  width: 100%;
+}
+.portfolio-box-details {
+  width: 46%;
+  float: left;
+  margin: 20px 2%;
+}
+.portfolio-box-details img {
+  height: 250px;
+}
+.middle-content button {
+  background: #17c2a4;
+  margin-top: 50px;
+}
+.middle-content button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 4px rgb(167, 20, 44);
+}
+
+/* ABOUT SECTION */
+#about {
+  background: #d74680;
+  width: 100%;
+  float: left;
+  padding: 75px 0px;
+  text-align: center;
+}
+.about-main {
+  width: 100%;
+  float: left;
+}
+.about-main-h2 {
+  font-size: 20px;
+  color: white;
+}
+.about-main h3 {
+  color: white;
+}
+.about-box {
+  width: 100%;
+}
+.about-box-details {
+  width: 46%;
+  float: left;
+  margin: 20px 2%;
+}
+.about-box-details img {
+  height: 150px;
+}
+.about-box-details p {
+  font-size: 13px;
+  color: white;
+}
+.about-box-details h2 {
+  font-size: 25px;
+  color: white;
+}
+.about-box-details h3 {
+  font-size: 15px;
+  color: #fcd197;
+}
+
+/* GET IN TOUCH SECTION */
+#touch {
+  background: #3c5499;
+  width: 100%;
+  float: left;
+  padding: 75px 0px;
+  text-align: center;
+}
+.touch-main {
+  width: 100%;
+  float: left;
+}
+.touch-main h2 {
+  font-size: 20px;
+  color: white;
+  background: #273a71;
+}
+
+.touch-main h3 {
+  color: white;
+  background: #273a71;
+}
+.touch-main form {
+  color: white;
+  background: #273a71;
+}
+
+.touch-main button {
+  background: #30bae7;
+}
+.touch-main button:hover {
+  cursor: pointer;
+  box-shadow: 0px 0px 4px rgb(218, 66, 155);
+}
+
+/* Footer is here */
+.footer {
+  background: #344b8e;
+  text-align: center;
+}
+.footer ul li {
+  list-style: none;
+  display: inline-block;
+  margin: 20px;
+  padding: 20px;
+}
+.footer ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+}
